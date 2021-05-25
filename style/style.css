@@ -1,0 +1,83 @@
+
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: black;
+    color: white;
+    font-family: monospace;
+}
+
+
+.grid{
+    border: 5px grey solid;
+    border-radius: 10px;
+    width: 560px;
+    height: 560px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+div{
+    width: 20px;
+    height: 20px;
+}
+
+.wall{
+    background-color: darkblue;
+}
+
+.pacdots{
+    background-color: yellow;
+    border: 7px solid black;
+    box-sizing: border-box;
+    border-radius: 50%;
+}
+
+.powerdots{
+    background-color: greenyellow;
+    border-radius: 50%;
+    border: black 2px solid;
+    box-sizing: border-box;
+}
+
+.pacman{
+    background-color: orange;
+    border: none;
+    border-radius: 10px;
+}
+
+.ghost1,
+.ghost2,
+.ghost3,
+.ghost4,
+.ghost5,
+.ghost6,
+.scared{
+    border: none;
+    border-radius: 15px 15px 0 0;
+    box-sizing: border-box;
+    
+}
+
+.ghost1{background-color: darkorange}
+
+.ghost2{background-color: chartreuse;}
+
+.ghost3{background-color: gold;}
+
+.ghost4{background-color: magenta;}
+
+.ghost5{background-color: cyan;}
+
+.ghost6{background-color: pink;}
+
+.scared{background-color: gainsboro;}
+
+
+#restart{
+    display: none;
+}
